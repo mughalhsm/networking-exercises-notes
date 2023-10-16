@@ -6,10 +6,6 @@ Load balancer algorithms can be divided into two main types:
 
 Static algorithms do not take into account the state of the target group.
 
-## Dynamic Algorithms
-
-Dynamic algorithms consider the state of the target group (e.g., server). They require communication between these two systems to make decisions about sending requests to the target group.
-
 ### Round Robin
 
 Requests are sent to servers in a sequential, round-robin fashion.
@@ -25,6 +21,10 @@ A hashing method is performed on the client's IP address at the load balancer, a
 ### Random Load Balancing Algorithm
 
 Requests are distributed based on a random number generator.
+
+## Dynamic Algorithms
+
+Dynamic algorithms consider the state of the target group (e.g., server). They require communication between these two systems to make decisions about sending requests to the target group.
 
 ### Least Connection
 
