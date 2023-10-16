@@ -4,7 +4,7 @@ Load balancer algorithms can be divided into two main types:
 
 ## Static Algorithms
 
-Static algorithms do not take into account the state of the server.
+Static algorithms do not take into account the state of the server. They are simplier and more efficient to implement. 
 
 ### Round Robin
 
@@ -24,7 +24,7 @@ Requests are distributed based on a random number generator.
 
 ## Dynamic Algorithms
 
-Dynamic algorithms consider the state of the target group (e.g., server). They require communication between these two systems to make decisions about sending requests to the server.
+Dynamic algorithms consider the state of the target group (e.g., server) and consider its load. They require communication between these two systems to make decisions about sending requests to the server.
 
 ### Least Connection
 
