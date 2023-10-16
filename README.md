@@ -36,6 +36,10 @@ Requests are sent to the server with the fewest active connections.
 
 Similar to the least connection algorithm, but it takes into account the capacity or assigned weight of the server.
 
+
+![alt text](https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12dffcce-f231-48cc-915f-d53c0f8bce0c_3735x3573.jpeg)
+
+
 ### Least Response Times
 
 Requests are sent to the server with the shortest average response time.
