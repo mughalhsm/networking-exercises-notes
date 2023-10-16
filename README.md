@@ -1,5 +1,7 @@
 # Load Balancer Algorithms
 
+Load balancers distribute workloads (data) between different computing services to improve reliability and network performance.
+There are different types of load balancing algorithms depending on the distribution of load.
 Load balancer algorithms can be divided into two main types:
 
 ## Static Algorithms
