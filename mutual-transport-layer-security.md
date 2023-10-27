@@ -2,7 +2,8 @@
 
 Mutual TLS (mTLS), short for Mutual Transport Layer Security, is a method for mutual authentication and encryption of network communication. It ensures that both parties at each end of a network connection, typically a client and a server, are who they claim to be by verifying that they both possess the correct private key and corresponding TLS certificates. These certificates contain essential information for verifying the identity of the parties involved.
 
-![Alt text]('tls-mtls.png')
+
+![tls-mtls](https://github.com/mughalhsm/network-notes/assets/52384393/1e85bc7c-8a29-43ee-8f60-21ea0e0dcda3)
 
 ## How is it different from TLS?
 
