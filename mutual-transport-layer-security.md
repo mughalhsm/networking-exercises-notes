@@ -19,14 +19,14 @@ The key differences between mTLS and TLS are as follows:
 
 3. **Certificate Authorities:**
    - **TLS**: In traditional TLS, a certificate authority (CA) issues the server's certificate and validates the ownership of the associated domain.
-   - **mTLS**: Organizations implementing mTLS often act as their own certificate authorities. They create a self-signed "root" TLS certificate, which enables them to issue certificates for authorized clients and servers within their organization. This is in contrast to the external CAs used in standard TLS.
+   - **mTLS**: Organisations implementing mTLS often act as their own certificate authorities. They create a self-signed "root" TLS certificate, which enables them to issue certificates for authorized clients and servers within their organisation. This is in contrast to the external CAs used in standard TLS.
 
 4. **Security Benefits:**
    - **TLS**: TLS primarily focuses on securing communication between the client and the server by ensuring the server's authenticity and encrypting data in transit.
-   - **mTLS**: mTLS provides an additional layer of security by authenticating both the client and the server. This makes it particularly useful for scenarios where trust in both directions is critical, such as authenticating users, devices, and servers within an organization.
+   - **mTLS**: mTLS provides an additional layer of security by authenticating both the client and the server. This makes it particularly useful for scenarios where trust in both directions is critical, such as authenticating users, devices, and servers within an organisation.
 
 5. **Use Cases:**
    - **TLS**: Traditional TLS is commonly used for securing web traffic, ensuring that users connect to legitimate websites and that their data remains confidential during transmission.
-   - **mTLS**: mTLS is typically used in situations where trust must be established in both directions, such as within an organization's internal network, for IoT device communication, or when securing APIs.
+   - **mTLS**: mTLS is typically used in situations where trust must be established in both directions, such as within an organisation's internal network, for IoT device communication, or when securing APIs.
 
-In summary, mTLS is an extension of the TLS protocol that provides mutual authentication, enhancing security by verifying the identities of both the client and the server in a network connection. This added layer of trust is valuable for organizations and scenarios where bidirectional authentication and secure communication are paramount.
+In summary, mTLS is an extension of the TLS protocol that provides mutual authentication, enhancing security by verifying the identities of both the client and the server in a network connection. This added layer of trust is valuable for organisations and scenarios where bidirectional authentication and secure communication are paramount.
